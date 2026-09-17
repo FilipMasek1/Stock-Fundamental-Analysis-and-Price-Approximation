@@ -1,1 +1,7 @@
-yfinance pandas numpy scipy matplotlib dataframe_image pillow 
+yfinance
+pandas
+numpy
+scipy
+matplotlib
+dataframe_image
+pillow 
