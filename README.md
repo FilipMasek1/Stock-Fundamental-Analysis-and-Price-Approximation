@@ -3,13 +3,13 @@
 Aplikace pro fundamentální analýzu akcií a aproximaci vývoje jejich ceny pomocí polynomické regrese s grafickým uživatelským rozhraním (GUI) v Pythonu.
 
 ### Popis aplikace
-**Stock Fundamental Analysis & Price Approximation** je desktopová aplikace, která kombinuje vyhodnocování základních finančních ukazatelů společností s analýzou cenových trendů. 
+**Stock Fundamental Analysis & Price Approximation** je aplikace, která kombinuje vyhodnocování základních finančních ukazatelů společností s analýzou cenových trendů. 
 
 Aplikace funguje ve dvou režimech:
 - **Online režim (`Real Analysis Mode`):** Stahuje aktuální finanční data a historické ceny přímo z rozhraní Yahoo Finance (`yfinance`).
 - **Offline režim (`Mock Analysis Mode`):** Pokud není dostupné připojení k internetu nebo selže API, aplikace automaticky přepne na lokálně uložená CSV data.
 
-### Hlavní funkce
+### Funkce
 
 - **Hodnocení fundamentálních metrik:** Automatické posouzení 9 klíčových ukazaželů finančního zdraví firmy vůči cílovým hodnotám.
 - **Barevná tabulka:** Generuje přehlednou tabulku stavu metrik.
@@ -17,7 +17,15 @@ Aplikace funguje ve dvou režimech:
 - **Záloha dat pro offline použití:** Možnost stáhnout a uložit získaná data do složky pro pozdější práci bez připojení k internetu.
 - **Interaktivní GUI (Tkinter):** Jednoduché grafické rozhraní.
 
-### Postup práce s aplikací:
+### Práce s aplikací:
+Aplikace vyžaduje nainstalovaný Python verze 3.8 nebo vyšší. 
+
+Požadované knihovny nainstalujete příkazem v terminálu / příkazové řádce: 
+  **`pip install requirements.txt`
+
+V rámci programu je využíván prohlížeč (Chrome/Chromium). Je proto třeba jej mít nainstalovaný.
+
+
 1. Aplikaci spustíte příkazem **`python -m app.sfapa` ve složce app
 2. **Zadání tickerů:** Do textového pole zadejte symboly akcií oddělené čárkou (a mezerou) (např. `AAPL, MSFT, GOOGL, NVDA`).
 3. **Volba období a intervalu:** Vyberte časový horizont a interval pro analýzu dat.
