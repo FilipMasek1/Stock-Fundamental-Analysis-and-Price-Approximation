@@ -26,13 +26,14 @@ Požadované knihovny nainstalujete příkazem v terminálu / příkazové řád
 V rámci programu je využíván prohlížeč (Chrome/Chromium). Je proto třeba jej mít nainstalovaný.
 
 
-1. Aplikaci spustíte příkazem `python -m app.sfapa` ve složce app
-2. **Zadání tickerů:** Do textového pole zadejte symboly akcií oddělené čárkou (a mezerou) (např. `AAPL, MSFT, GOOGL, NVDA`).
-3. **Volba období a intervalu:** Vyberte časový horizont a interval pro analýzu dat.
-4. **Výběr metrik:** Zaškrtněte metriky, které chcete zobrazit a vyhodnotit v tabulce.
-5. **Uložení dat (volitelné):** Zaškrtněte možnost stažení dat, pokud chcete nová data uložit pro offline použití.
-6. **Analýza:** Klikněte na tlačítko **Analýza**.
-7. **Zobrazení výsledků:** V novém okně se zobrazí barevná tabulka metrik a rozbalovací nabídka pro zobrazení cenového grafu s aproximovanou polynomickou křivkou pro jednotlivé akcie.
+1. Aplikaci spustíte příkazem `python -m sfapa` ve složce app na Windows.
+   Příkazem `python3 -m sfapa` na MacOS.
+3. **Zadání tickerů:** Do textového pole zadejte symboly akcií oddělené čárkou (a mezerou) (např. `AAPL, MSFT, GOOGL, NVDA`).
+4. **Volba období a intervalu:** Vyberte časový horizont a interval pro analýzu dat.
+5. **Výběr metrik:** Zaškrtněte metriky, které chcete zobrazit a vyhodnotit v tabulce.
+6. **Uložení dat (volitelné):** Zaškrtněte možnost stažení dat, pokud chcete nová data uložit pro offline použití.
+7. **Analýza:** Klikněte na tlačítko **Analýza**.
+8. **Zobrazení výsledků:** V novém okně se zobrazí barevná tabulka metrik a rozbalovací nabídka pro zobrazení cenového grafu s aproximovanou polynomickou křivkou pro jednotlivé akcie.
 
 ### Používané metriky a jejich vysvětlení
 
