@@ -21,7 +21,7 @@ Aplikace funguje ve dvou režimech:
 Aplikace vyžaduje nainstalovaný Python verze 3.8 nebo vyšší. 
 
 Požadované knihovny nainstalujete příkazem v terminálu / příkazové řádce: 
-  `pip install requirements.txt`
+  `pip install -r requirements.txt`
 
 V rámci programu je využíván prohlížeč (Chrome/Chromium). Je proto třeba jej mít nainstalovaný.
 
