@@ -26,7 +26,7 @@ Požadované knihovny nainstalujete příkazem v terminálu / příkazové řád
 V rámci programu je využíván prohlížeč (Chrome/Chromium). Je proto třeba jej mít nainstalovaný.
 
 
-1. Aplikaci spustíte příkazem **`python -m app.sfapa` ve složce app
+1. Aplikaci spustíte příkazem `python -m app.sfapa` ve složce app
 2. **Zadání tickerů:** Do textového pole zadejte symboly akcií oddělené čárkou (a mezerou) (např. `AAPL, MSFT, GOOGL, NVDA`).
 3. **Volba období a intervalu:** Vyberte časový horizont a interval pro analýzu dat.
 4. **Výběr metrik:** Zaškrtněte metriky, které chcete zobrazit a vyhodnotit v tabulce.
