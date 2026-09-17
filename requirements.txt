@@ -5,3 +5,4 @@ scipy
 matplotlib
 dataframe_image
 pillow 
+pytest
